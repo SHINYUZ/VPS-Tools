@@ -119,7 +119,8 @@ Shinyuz Tools v1.0.0
 
 ## 环境要求
 
-- 系统: Debian / Ubuntu / CentOS / Alpine 等主流 Linux 发行版
+- 推荐系统：Debian / Ubuntu
+- 部分功能不保证兼容 Alpine、CentOS、Rocky、AlmaLinux 等系统
 - 权限: 建议使用 root 用户运行
 - 架构: AMD64 / ARM64
 
