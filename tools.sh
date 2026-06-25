@@ -1298,8 +1298,8 @@ generate_new_ssh_key() {
   local temp_dir key_path public_key
 
   temp_dir="$(mktemp -d)"
-  key_path="$temp_dir/shinyuz_ed25519"
-  if ! ssh-keygen -q -t ed25519 -a 100 -N "" -C "shinyuz-tools-$(date +%Y%m%d%H%M%S)" -f "$key_path"; then
+  key_path="$temp_dir/tools_ed25519"
+  if ! ssh-keygen -q -t ed25519 -a 100 -N "" -C "Tools" -f "$key_path"; then
     rm -rf "$temp_dir"
     err "密钥生成失败"
     return 1
